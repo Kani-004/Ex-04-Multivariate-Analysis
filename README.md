@@ -11,28 +11,28 @@ Exploratory data analysis is used to understand the messages within a dataset. T
 
 # ALGORITHM:
 
-##STEP 1
+## STEP 1
 Import the built libraries required to perform EDA and outlier removal.
 
-# STEP 2
+## STEP 2
 Read the given csv file
 
-##STEP 3
+## STEP 3
 Convert the file into a dataframe and get information of the data.
 
-##STEP 4
+## STEP 4
 Return the objects containing counts of unique values using (value_counts()).
 
-##STEP 5
+## STEP 5
 Plot the counts in the form of Histogram or Bar Graph.
 
-##STEP 6
+## STEP 6
 Use seaborn the bar graph comparison of data can be viewed.
 
-##STEP 7
+## STEP 7
 Find the pairwise correlation of all columns in the dataframe.corr()
 
-##STEP 8
+## STEP 8
 Save the final data set into the file
 
 # PROGRAM
@@ -104,7 +104,7 @@ sns.heatmap(df.corr(),annot=True)
 
 ![image](https://user-images.githubusercontent.com/129577149/230834309-cf3f4826-e25d-4aa7-8d6e-72f7ecf1fea8.png)
 
-#DATA TYPES
+# DATA TYPES
 
 ![image](https://user-images.githubusercontent.com/129577149/230834387-02a1c0ee-699b-449b-a675-42ad07ab6ff6.png)
 
