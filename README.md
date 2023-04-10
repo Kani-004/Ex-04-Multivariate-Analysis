@@ -108,7 +108,7 @@ sns.heatmap(df.corr(),annot=True)
 
 ![image](https://user-images.githubusercontent.com/129577149/230834387-02a1c0ee-699b-449b-a675-42ad07ab6ff6.png)
 
-#SCATTER PLOT
+# SCATTER PLOT
 
 ![image](https://user-images.githubusercontent.com/129577149/230834499-1535e622-8962-4d35-8ff7-436dabd836b6.png)
 
@@ -131,7 +131,7 @@ sns.heatmap(df.corr(),annot=True)
 ![image](https://user-images.githubusercontent.com/129577149/230835863-74252742-6592-467c-89c0-d3b189f88c7c.png)
 
 ~~~
-RESULT
+# RESULT
 
 Thus we have read the given data and performed the multivariate analysis with different types of plots.
 ~~~
