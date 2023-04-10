@@ -11,28 +11,28 @@ Exploratory data analysis is used to understand the messages within a dataset. T
 
 # ALGORITHM:
 
-# STEP 1
+##STEP 1
 Import the built libraries required to perform EDA and outlier removal.
 
 # STEP 2
 Read the given csv file
 
-# STEP 3
+##STEP 3
 Convert the file into a dataframe and get information of the data.
 
-# STEP 4
+##STEP 4
 Return the objects containing counts of unique values using (value_counts()).
 
-# STEP 5
+##STEP 5
 Plot the counts in the form of Histogram or Bar Graph.
 
-# STEP 6
+##STEP 6
 Use seaborn the bar graph comparison of data can be viewed.
 
-# STEP 7
+##STEP 7
 Find the pairwise correlation of all columns in the dataframe.corr()
 
-# STEP 8
+##STEP 8
 Save the final data set into the file
 
 # PROGRAM
@@ -115,6 +115,27 @@ sns.heatmap(df.corr(),annot=True)
 # BAR PLOT
 
 ![image](https://user-images.githubusercontent.com/129577149/230834545-3ba959e2-2aa3-482d-bcad-43cf10b21588.png)
+
+![image](https://user-images.githubusercontent.com/129577149/230835447-1d9a4d0d-b8d3-43d0-9f17-da55fe542108.png)
+
+![image](https://user-images.githubusercontent.com/129577149/230835489-d6e31412-bf18-4bb1-93b2-0c36cb8ac333.png)
+
+![image](https://user-images.githubusercontent.com/129577149/230835627-b9ce3717-0fc3-41cf-8d25-6a7d97c006fa.png)
+
+#CORRELATION COEFFICIENT INTERPRETATION
+
+![image](https://user-images.githubusercontent.com/129577149/230835692-ee1a5818-4a05-4fc1-9a45-a628550730f7.png)
+
+# HEATMAP
+
+![image](https://user-images.githubusercontent.com/129577149/230835863-74252742-6592-467c-89c0-d3b189f88c7c.png)
+
+~~~
+RESULT
+
+Thus we have read the given data and performed the multivariate analysis with different types of plots.
+~~~
+
 
 
 
